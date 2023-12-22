@@ -1,0 +1,35 @@
+:root{
+    --color-dark:#000;
+    --color-green:#green;
+}
+
+.fcNavbar{
+    background-color: var(--color-dark) !important;
+    
+}
+
+.fcNavbar-dark, .navbar-nav .active>.nav-link, 
+.fcNavbar-dark, .navbar-nav .nav-link.active, 
+.fcNavbar-dark,.navbar-nav .nav-link.show, 
+.fcNavbar-dark, .navbar-nav .show>.nav-link {
+    color: #fff;
+    background-color: orange;
+}
+
+.fcNavbar-dark, .navbar-nav .nav-link:focus, 
+.fcNavbar-dark, .navbar-nav .nav-link:hover {
+    color: white;
+    background-color: orange;
+}
+
+ a.nav-link {
+    margin-left: 5px;
+} 
+
+
+.fcNavbar, .navbar-nav .nav-link {
+    color: #fff;
+    height: 50px;
+    line-height: 25px;
+    padding: .5rem 5px;
+}
